@@ -1,21 +1,30 @@
 #header { 
-    font-size: 12px;
-    display : flex;
+    display: flex;
+    min-width: 165px;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+    text-align: right;
+    z-index: 986;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: flex-end;
     justify-content: flex-end;
-
 }
 
 footer {
     color: grey;
     display : flex;
     justify-content: space-between;
-    background-color: rgb(241, 228, 228);
+    background: #f2f2f2;
+    border-top: 1px solid #dadce0;
+    line-height: 40px;
 
 }
 main{
     display: flex;
     flex-direction: column;
-    margin-bottom: 22%;
+    margin-bottom: 19%;
 }
 #Main {
     display : flex;
@@ -52,6 +61,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 
 }
 
@@ -60,6 +70,7 @@ main{
     border-radius: 10px; 
     width: 300px; height: 18px;
     border-color: rgba(219, 219, 224, 0.712);
+    
 }
 
 body{
@@ -70,6 +81,7 @@ body{
     background-color: #4285F4;
     border-color: transparent;
     color: white;
+    border-radius: 5px;
 }
 
 .itemsListe2, .itemsListe1{
@@ -79,4 +91,14 @@ body{
 
 .NavSpan{
     padding: 10px;
+}
+
+.LIEN1{
+    text-decoration: none;
+    color: black;
+}
+
+#logosearch{
+    color: #9aa0a6;
+    padding-right: 10px;
 }
