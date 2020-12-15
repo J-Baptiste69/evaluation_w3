@@ -1,0 +1,70 @@
+#header { 
+    width: auto; height: 100px;
+    display : flex;
+    justify-content: flex-end;
+
+}
+
+
+
+#footer {
+    color: grey;
+    width: auto;
+    display : flex;
+    flex-direction: row;   
+    justify-content: space-between;
+    background-color: rgb(241, 228, 228);
+}
+
+#Middle {
+    width: auto; height: 100px;
+    display : flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#droit{
+    width: 400px; 
+    display: flex;
+    justify-content: end;
+}
+
+.butonMiddle{
+    border-color: transparent;
+}
+
+
+
+
+#search{
+    width: auto; height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.LISTE, .LISTE2{
+    font-size: 11px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#butonConnexion{
+    background-color: #4285F4;
+    border-color: transparent;
+    color: white;
+}
+
+.itemsListe2, .itemsListe1{
+    padding: 5px;
+    list-style: none;
+}
